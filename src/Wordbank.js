@@ -1,0 +1,60 @@
+const wordBank = [
+    "APPLE",
+    "BANANA",
+    "ORANGE",
+    "CHAIR",
+    "TABLE",
+    "PILLOW",
+    "MIRROR",
+    "CASTLE",
+    "OCEAN",
+    "FOREST",
+    "LAPTOP",
+    "PENCIL",
+    "SCHOOL",
+    "GARDEN",
+    "ROBOT",
+    "WIZARD",
+    "DRAGON",
+    "PIRATE",
+    "ISLAND",
+    "ROCKET",
+    "MONSTER",
+    "TUNNEL",
+    "BRIDGE",
+    "GUITAR",
+    "VIOLIN",
+    "DESERT",
+    "HELMET",
+    "JACKET",
+    "LANTERN",
+    "MAGNET",
+    "OCTOPUS",
+    "PLANET",
+    "QUICKSAND",
+    "RAINBOW",
+    "SCISSORS",
+    "THUNDER",
+    "UNICORN",
+    "VOLCANO",
+    "WHIRLPOOL",
+    "XYLOPHONE",
+    "YACHT",
+    "ZIPPER",
+    "ACROBAT",
+    "BLIZZARD",
+    "COMPASS",
+    "DINOSAUR",
+    "ENVELOPE",
+    "FIREWORK",
+    "GLACIER",
+    "HEDGEHOG"
+];
+
+export const getRandomWord = () => {
+    const randomIndex = Math.floor(Math.random() * wordBank.length);
+    return wordBank[randomIndex];
+}
+
+
+export default wordBank;
